@@ -1,0 +1,21 @@
+#firstid{
+    text-align:center;
+    color:rebeccapurple;
+    font-size:30px;
+    border:20px solid red;
+    padding: 10px;
+}
+body{
+    background-color:cornsilk
+}
+pre{
+    color:deeppink;
+    font-size: 30px;
+    margin-left:150px;
+}
+.externalid{
+    background-color: blue;
+    color: yellow;
+    padding: 25px;
+    text-align: right;
+}

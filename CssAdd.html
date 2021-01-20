@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How add in CSS</title>
+    <link rel="stylesheet" href="FirstCss.css">
+    <style>
+        .internalid{
+        background-color:deeppink;
+        padding: 20px;
+        text-align: left;
+    }
+    </style>
+</head>
+<body>
+    <h1 id='firstid'>Three Ways to Insert CSS file </h1>
+    <pre>
+        <ul>
+            <li>External CSS</li>
+            <li>Internal CSS</li>
+            <li>Inline CSS</li>
+        </ul>
+    </pre>
+    <h1>External CSS</h1>
+    <p>With an external style sheet, you can change the
+         look of an entire website by changing just one file!</p>
+    <p>Each HTML page must include a reference to the external style sheet
+         file inside the <strong>"< link>"</strong>  element, inside the head section.</p>   
+         <h1 style="background-color: black;color:white;text-align: center;
+         padding: 15px;"> Inline CSS Using here</h1>  
+         <h1 class="internalid">Internal CSS use in this section</h1>
+         <h1 class="externalid">External CSS use in this section</h1>
+         <h1>Cascading Order and highest priority in Css</h1>
+ <pre style="color:crimson">
+What style will be used when there is more than one style specified for an HTML element?
+All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:
+            
+Inline style (inside an HTML element)
+External and internal style sheets (in the head section)
+Browser default
+So, an inline style has the highest priority, 
+and will override external and internal styles and browser defaults.</pre>
+<h2>how to get in CSS code Comments</h2>
+<p>/* Then write your Coments any text last finish */</p>
+<!--
+/* Then write your Coments any text last finish */
+-->
+<h2>We are already know Html and CSS coments difference</h2>
+<h2>Here is Single line and Multiline Coments are same!</h2>
+    
+</body>
+</html>

@@ -1,0 +1,205 @@
+h1.firstheading{
+    background-color: blueviolet;
+    text-indent: 350px;
+    font-size: 40px;
+    outline-style:dashed;
+    outline-color:deeppink;
+    outline-width: 10px;
+    outline-offset:5px;
+    padding: 20px;
+}
+#firstdiv{
+    border: 4px solid gold;
+    padding: 10px;
+
+}
+#firstdiv h1{
+    text-align: center;
+    text-transform:capitalize;
+    color:green;
+}
+#firstdiv p{
+    text-indent: 100px;
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+#firstdiv a{
+    text-decoration: underline;
+    color: blue;
+}
+#h2{
+    color: hotpink;
+}
+#pid2{
+    color: green;
+}
+.div2{
+    text-align: justify;
+    direction: rtl;
+    unicode-bidi:bidi-override;
+}
+img.p4{
+    vertical-align:top;
+}
+img#p5{
+    vertical-align: bottom;
+}
+#p6{
+    vertical-align: middle;
+}
+.head1{
+    background-color: red;
+    text-decoration: overline;
+    text-transform: capitalize;
+    text-indent: 100px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    line-height: 100px;
+    text-shadow: 4px 5px;
+}
+.head2{
+    text-decoration: line-through;
+    text-transform: lowercase;
+    text-indent: 200px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-shadow: 2px 4px red;
+}
+.head3{
+    text-decoration: underline;
+    text-transform:uppercase;
+    text-indent: 300px;
+    letter-spacing: 9px;
+    word-spacing: 15px;
+    text-shadow: 2px 3px 5px red;
+
+}
+.pp1{
+    font-family: "Times New Roman",Times, serif;
+    font-style:oblique;
+}
+.pp2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pp3{
+    font-family:"Lucida Console","Courier New",monospace;
+}
+#pp4{
+    font-family: Arial,sans-serif;
+}
+#pp5{
+    font-family: Verdana,sans-serif;
+}
+#pp6{
+    font-family: Tahoma,sans-serif;
+}
+#pp7{
+    font-family: Helvetica,sans-serif;
+}
+#pp8{
+    font-family: "Trebuchet MS",sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant:small-caps;
+    font-size: 50px;
+}
+.googlefont{
+    font-family: "Sofia", sans-serif;
+}
+.font-effect{
+    font-family: "Sofia", sans-serif;
+  font-size: 30px;
+}
+.linkid:link{
+  color:red;
+  text-decoration: none;
+}
+.linkid:visited{
+    color: aqua;
+    text-decoration: none;
+}
+.linkid:hover{
+    color: red;
+    font-size: 50px;
+    border: 5px dotted hotpink;
+    border-width: 20px;
+    outline-style: groove;
+    outline-width:10px;
+    outline-color: green;
+    text-decoration: overline;
+    background-color: black;
+    display:inline-block;
+
+}
+.linkid:active{
+    color: darkorchid;
+}
+#buttonid:link{
+    color: green;
+    border: 1px solid green;
+    padding: 10px;
+    text-decoration: none;
+}
+#buttonid:visited{
+    color: green;
+    border: 1px solid green;
+    
+}
+#buttonid:hover{
+    color:black;
+    border: 2px dashed red;
+    border-width: 10px;
+    outline-style: dotted;
+    background-color: green;
+}
+#buttonid:active{
+    color:deeppink;
+    border: 2px dashed green;
+    border-width: 10px;
+    outline-style: groove;
+    background-color: black;
+
+}
+ul.ac{
+    list-style-type: circle;
+    list-style-image:url("runingMan.jpg");
+}
+ul.bc{
+    list-style-type:decimal;
+    color: aqua;
+}
+ol.cc{
+    list-style-type:upper-roman;
+}
+ol.dc{
+    list-style-type: lower-greek;
+    color: green;
+}
+ul.outsideid{
+    list-style-position: inside;
+}
+ul.insideid{
+    list-style-position: outside;
+}
+.demo{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.orderlist{
+    background-color: #ff9999;
+    padding: 30px;
+}
+.unorderlist{
+    background-color: #3399ff;
+    padding: 30px;
+}
+.orderlist li{
+    background:#ffe5e5;
+    margin-left: 20px;
+}
+.unorderlist li{
+    background:#cce5ff;
+    margin: 10px;
+}

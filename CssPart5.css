@@ -1,0 +1,71 @@
+table.firsttable{
+    border: 2px solid green;
+}
+table.firsttable th{
+    border: 2px solid green;
+}
+table.firsttable td{
+    border: 2px solid green;
+}
+table.firsttable th{
+   background-color: red;
+}
+table.firsttable{
+    width: 100%;
+
+}
+.Secondtable{
+    width: 80%;
+    border: 2px solid black;
+}
+.Threetable {
+    width: 50%;
+    border: 1px solid turquoise;
+    border-collapse: collapse;
+}
+.Threetable th{
+    height: 50px;
+    text-align:left;
+    font-size: 40px;
+    background-color: green;
+    border: 1px solid turquoise;
+    
+}
+.Threetable td {
+    border: 1px solid turquoise;
+    vertical-align:bottom;
+    text-align: right;
+    height: 30px;
+    
+}
+.fourtable{
+    border-collapse: collapse;
+    width: 100%;
+}
+.fourtable, th,td{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid black;
+
+}
+.fourtable tr:hover{
+    background-color: green;
+}
+.fourtable tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+.final table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.final th{
+    text-align: left;
+    padding: 8px;
+}
+.final td{
+    text-align: left;
+    padding: 8px;
+}
+.final tr:nth-child(even){
+    background-color: #f2f2f2;
+}

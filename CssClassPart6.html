@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start from Css Display</title>
+    <link rel="stylesheet" href="CssPart6.css">
+</head>
+<body>
+    <h1>The Display Property study here</h1>
+    <pre>
+        As mentioned, every element has a default display value.
+         However, you can override this.
+
+        Changing an inline element to a block element,
+         or vice versa, can be useful for making the page look 
+         a specific way, and still follow the web standards. 
+    </pre>
+    <h1><p>Display a list of links as a horizontal menu:</p></h1>
+    
+<ul>
+    <li><a href="/html/default.asp" target="_blank">HTML</a></li>
+    <li><a href="/css/default.asp" target="_blank">CSS</a></li>
+    <li><a href="/js/default.asp" target="_blank">JavaScript</a></li>
+  </ul>
+  <span>A display property with a value of "block" results in</span><span>a line break between the two elements.</span>
+  <p>Display links as block elements:</p>
+
+  <a href="/html/default.asp" target="_blank">HTML</a>
+  <a href="/css/default.asp" target="_blank">CSS</a>
+  <a href="/js/default.asp" target="_blank">JavaScript</a>
+  <h1>This is a visible heading</h1>
+<h1 class="hidden">This is a hidden heading</h1>
+<p>Notice that the h1 element with display: none; does not take up any space.</p>
+<h2>CSS Max-width</h2>
+
+<div class="ex1">This div element has width: 500px;</div>
+<br>
+
+<div class="ex2">This div element has max-width: 500px;</div>
+
+<p><strong>Tip:</strong> Drag the browser window to smaller than 500px wide, to see the difference between 
+the two divs!</p>
+<h2>position: static;</h2>
+
+<p>An element with position: static; is not positioned in any special way; it is 
+always positioned according to the normal flow of the page:</p>
+
+<div class="static">
+  This div element has position: static;
+</div>
+<div class="relative">
+    This div element has position: relative;
+  </div>
+  <div class="fixed">
+    This div element has position: fixed;
+  </div>
+  <div class="absolute">
+    This div element has position: absolute;
+  </div>
+  <div class="sticky">
+    This div element has position: sticky;
+  </div>
+
+  
+<h2>position: absolute;</h2>
+
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+<div class="relative1">This div element has position: relative;
+  <div class="absolute1">This div element has position: absolute;</div>
+</div>
+
+<h1>This is a heading</h1>
+<img src="w3css.gif" width="100" height="140">
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+</body>
+</html>

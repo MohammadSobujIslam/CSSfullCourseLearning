@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start to display: inline-block</title>
+    <link rel="stylesheet" href="CssPart8.css">
+</head>
+<body>
+    <h1>The display Property</h1>
+
+<h2>display: inline</h2>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="a">Aliquam</span> <span class="a">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+
+<h2>display: inline-block</h2>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="b">Aliquam</span> <span class="b">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+
+<h2>display: block</h2>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="c">Aliquam</span> <span class="c">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+<h1>Horizontal Navigation Links</h1>
+<p>By default, list items are displayed vertically. In this example we use display: inline-block to display them horizontally (side by side).</p>
+<p>Note: If you resize the browser window, the links will automatically break when it becomes too crowded.</p>
+
+<ul class="nav">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About Us</a></li>
+  <li><a href="#clients">Our Clients</a></li>  
+  <li><a href="#contact">Contact Us</a></li>
+</ul>
+<h2>Center Align Elements</h2>
+<p>To horizontally center a block element (like div), use margin: auto;</p>
+
+<div class="center">
+  <p>Hello World!</p>
+</div>
+<h2>Center an Image</h2>
+<p>To center an image, set left and right margin to auto, and make it into a block element.</p>
+
+<img src="Lichu.jpeg" alt="Paris" style="width:40%">
+
+<h2>Right Align</h2>
+<p>An example of how to right align elements with the position property:</p>
+
+<div class="right">
+  <p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
+</div>
+<br>
+<h2>Flexbox Centering</h2>
+
+<p>A container with both the justify-content and the align-items properties set to <em>center</em> will align the item(s) in the center (in both axis).</p>
+
+<div class="center11">
+  <p>I am vertically and horizontally centered.</p>
+</div>
+<h1>CSS Combinators learning</h1>
+<h5 style="background-color: hotpink;opacity: .5;padding: 20px;">
+    A combinator is something that explains the relationship between the selectors.</h5>
+    <h2>Descendant Selector</h2>
+    <p>The descendant selector matches all elements that are descendants of a specified element.</p>
+    
+    <div>
+      <p>Paragraph 1 in the div.</p>
+      <p>Paragraph 2 in the div.</p>
+      <section><p>Paragraph 3 in the div.</p></section>
+    </div>
+    
+    <p>Paragraph 4. Not in a div.</p>
+    <p>Paragraph 5. Not in a div.</p>    
+    
+<h2>Child Selector</h2>
+<p>The child selector (>) selects all elements that are the children of a specified element.</p>
+
+<div class="child">
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <section><p>Paragraph 3 in the div.</p></section> <!-- not Child but Descendant -->
+  <p>Paragraph 4 in the div.</p>
+</div>
+
+<p>Paragraph 5. Not in a div.</p>
+<p>Paragraph 6. Not in a div.</p>
+
+<h2>Adjacent Sibling Selector</h2>
+
+<p>The + selector is used to select an element that is directly after another specific element.</p>
+<p>The following example selects the first p element that are placed immediately after div elements:</p>
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+</div>
+
+<p>Paragraph 3. After a div.</p>
+<p>Paragraph 4. After a div.</p>
+
+<div>
+  <p>Paragraph 5 in the div.</p>
+  <p>Paragraph 6 in the div.</p>
+</div>
+
+<p>Paragraph 7. After a div.</p>
+<p>Paragraph 8. After a div.</p>
+<dir>
+    <i>General Sibling Selector 1</i>
+    <i>General Sibling Selector 2</i>
+    <i>General Sibling Selector 3</i>
+</dir>
+<i>General Sibling Selector 4</i><br>
+    <i>General Sibling Selector 5</i><br>
+    <i>General Sibling Selector 6</i><br>
+    <pre>
+        <li>frist</li><br>
+        <li>frist 2</li><br>
+    </pre>
+    <i>General Sibling Selector 9</i><br>
+    <i>General Sibling Selector 10</i><br>
+    <h1>Check out</h1>
+    <i>right my</i>
+
+    <p>Mouse over the div element below to change its background color:</p>
+
+<div class="pseudoc">Mouse Over Me</div>
+
+<div>Hover over me to show the p element
+    <h1>TaDa Here I Am</h1>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h3>right work</h3>
+<p>Some text <q lang="no">A quote in a paragraph</q> Some text.</p>
+<p>In this example, :lang defines the quotation marks for q elements with lang="no":</p>
+<pre>
+    You can use the ::first-line pseudo-element to add a special effect to the first line of a text.
+     Some more text. And even more, and more, and more, and more, and more,
+      and more, and more, and more, and more, and more, and more, and more.
+</pre>
+<h5>your first::later color </h5>
+<p class="intro">This is an introduction.</p>
+<p>This is a paragraph with some text. A bit more text even.</p>
+<h1>Multiple pseudo element</h1>
+<p class="multipleid">Multiple pseudo element use Here first-line::first-letter</p>
+<ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+  
+  <ol>
+    <li>First</li>
+    <li>Second</li>
+    <li>Third</li>
+  </ol>git 
+</body>
+</html>
+

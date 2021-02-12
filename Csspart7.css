@@ -1,0 +1,118 @@
+.houseone{
+    position: relative;
+}
+.topleft{
+    position: absolute;
+    top:20px;
+    left: 20px;
+    font-size: 40px;
+}
+.topright{
+    position: absolute;
+    top:20px;
+    right:20px;
+    font-size: 40px;
+}
+.center{
+    position: absolute;
+    top:50%;
+    right:50%;
+    font-size: 40px;
+}
+.bottomleft{
+    position: absolute;
+    bottom:60px;
+    left:40px;
+    font-size: 40px;
+}
+.bottomright{
+    position: absolute;
+    bottom:60px;
+    right: 40px;
+    font-size: 40px;
+}
+#overflowTest{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    margin: 30px;
+    width: 350px;
+    height: 150px;
+    border: 3px solid aqua;
+    overflow: scroll;
+}
+.overflowtwo{
+    background-color: #ccc;
+    width: 300px;
+    height:50px;
+    border:3px solid blue;
+    overflow: visible;
+}
+.hiddenclass{
+    background-color: #ccc;
+    width: 300px;
+    height:50px;
+    border:3px solid blue;
+    overflow: hidden;
+  
+}
+.autoclass{
+    background-color: #ccc;
+    width: 300px;
+    height:50px;
+    border:3px solid blue;
+    overflow: auto;
+  
+}
+.overflowposition{
+    background-color:#ccc;
+    width: 200px;
+    height: 80px;
+    border: 2px solid yellow;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+.floatid img{
+    float: right;
+}
+.floatid2 img{
+    float: none;;
+}
+.div1 {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+  }
+  .div2 {
+    
+    border: 1px solid red;
+  }
+  .div3 {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+  }
+  .div4 {
+    border: 1px solid red;
+    clear: left;
+  }
+
+ .withoutclear{
+   border: 3px solid green;
+   padding: 10px; 
+ } 
+ .img11{
+     float: right;
+ }
+ .clearfix1{
+     border: 2px solid green;
+     overflow: auto;
+ }
+ .img22{
+     float: right;
+ }
+

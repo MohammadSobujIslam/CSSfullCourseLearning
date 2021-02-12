@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid of Boxes</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .box{
+            float: left;
+            width: 33.3%;
+            padding: 50px;
+        }
+        .clearfix::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+        p{
+            font-size: 25px;
+        }
+        .images{
+            float: left;
+            width: 33.3%;
+            padding: 5px;
+
+        }
+        .clearfix1::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .flex-container{
+            display: flex;
+            flex-wrap: nowrap;
+            background-color: hotpink;
+        }
+        .flex-container .flexbox{
+            background-color: #f1f1f1;
+            width: 50%;
+            margin: 15px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+        ul{
+            list-style-type:none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 16px 20px;
+            text-decoration: none;
+        }
+        li a:hover{
+            background-color: red;
+        }
+        .active{
+            background-color:green;
+        }
+
+
+        .header, .footer{
+            background-color: gray;
+            color: white;
+            padding: 15px;
+        }
+        .column{
+            float: left;
+            padding: 15px;
+        }
+        .clearfix4::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .menu{
+            width: 25%;
+           background-color: wheat;
+        }
+        .content{
+            width: 75%;
+        }
+         .ullist{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .l1{
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: red;
+            color:#ffffff;
+        }
+        .menu li:hover {
+  background-color: #0099cc;
+}
+        
+
+    </style>
+</head>
+<body>
+    <h2>Grid of Boxes</h2>
+<p>Float boxes side by side:</p>
+
+<div class="clearfix">
+  <div class="box" style="background-color:#bbb">
+  <p>Some text inside the box.</p>
+  </div>
+  <div class="box" style="background-color:#ccc">
+  <p>Some text inside the box.</p>
+  </div>
+  <div class="box" style="background-color:#ddd">
+  <p>Some text inside the box.</p>
+  </div>
+</div>
+<pre><p>Note that we also use the clearfix hack to take care of the layout flow, 
+    and that add the box-sizing property to make sure that 
+    the box doesn't break due to extra padding.
+     Try to remove this code to see the effect.</p>
+</pre>
+<h1>Image Side by Side</h1>
+    
+<div class="clearfix1">
+    <div class="images" >
+    <img src="house.jpeg" alt="houseone" style="width: 100%;">
+    </div>
+    <div class="images" >
+        <img src="runingMan.jpg" alt="kids" style="width: 100%;">
+    </div>
+    <div class="images" >
+        <img src="house2.jpg" alt="house two" style="width: 100%;">
+    </div>
+  </div>
+
+  
+    <h1>Flexible Boxes</h1>
+
+    <div class="flex-container">
+      <div class="flexbox">Box 1 - This is some text to make sure that the content gets really tall. This is some text to make sure that the content gets really tall.</div>
+      <div class="flexbox">Box 2 - My height will follow Box 1.</div>
+    </div>
+    
+    <p>Try to resize the browser window to see the flexible layout.</p>
+    <p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 or earlier versions.</p>
+  
+    <h1>Navigation var create learning</h1>
+<h3>
+    My name is Sobuj islam.I am student of university.My department is computer and science engineering
+
+</h3>  
+
+<ul>
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#news" >News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#profile">Profile</a></li>
+</ul>
+<h1>Header and footer learning </h1>
+<br>
+    
+<div class="header">
+    <h1>Chania</h1>
+  </div>
+  
+  <div class="clearfix4">
+    <div class="column menu">
+      <ul class="ullist">
+        <li class="l1">The Flight</li>
+        <li class="l1">The City</li>
+        <li class="l1">The Island</li>
+        <li class="l1">The Food</li>
+      </ul>
+    </div>
+  
+    <div class="column content">
+      <h1>The City</h1>
+      <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+      <p>You will learn more about web layout and responsive web pages in a later chapter.</p>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <p>Footer Text</p>
+  </div>
+  
+
+</body>
+</html>
